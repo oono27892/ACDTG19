@@ -1,0 +1,31 @@
+flight_id,airline_id,date,incident_type,severity,ticket_price_usd,price_level,is_low_cost,notes,aircraft_age_years,aircraft_size,pilot_experience_years,weather_code
+KE125,KR_KE,2021-10-09,Engine issue,Minor incident,475,High,False,,12.0,Medium,6.0,1.0
+AA189,US_AA,2022-08-28,Hydraulic failure,Minor incident,332,High,False,,8.0,Medium,9.0,5.0
+AA127,US_AA,2022-07-29,Engine issue,Serious incident,362,High,False,,10.0,Small,12.0,3.0
+NK703,US_NK,2021-10-12,Bird strike,Serious incident,60,Low,True,,15.0,Medium,16.0,2.0
+LJ259,KR_LJ,2021-08-09,Hard landing,Minor incident,89,Low,True,,7.0,Large,7.0,1.0
+LJ718,KR_LJ,2021-09-28,Bird strike,Serious incident,141,Low,True,,16.0,Medium,11.0,1.0
+NK180,US_NK,2022-07-20,Hard landing,Serious incident,109,Low,True,,9.0,Small,14.0,1.0
+AA296,US_AA,2021-03-13,Bird strike,Serious incident,342,High,False,,13.0,Large,8.0,4.0
+LJ266,KR_LJ,2022-01-15,Hard landing,Minor incident,108,Low,True,,11.0,Medium,13.0,3.0
+7C646,KR_7C,2021-09-08,Engine issue,Minor incident,98,Low,True,,20.0,Medium,10.0,3.0
+LJ963,KR_LJ,2021-02-27,Engine issue,Serious incident,112,Low,True,,5.0,Small,15.0,1.0
+KE316,KR_KE,2022-08-04,Hard landing,Minor incident,450,High,False,,18.0,Medium,9.0,5.0
+NK246,US_NK,2021-09-29,Engine issue,Minor incident,83,Low,True,,6.0,Small,7.0,4.0
+AA538,US_AA,2022-08-21,Hydraulic failure,Minor incident,349,High,False,,14.0,Medium,12.0,1.0
+KE256,KR_KE,2022-10-05,Engine issue,Serious incident,447,High,False,,7.0,Large,18.0,1.0
+NK710,US_NK,2022-04-25,Runway overrun,Minor incident,112,Low,True,,19.0,Medium,10.0,1.0
+KE798,KR_KE,2022-07-04,Hard landing,Serious incident,442,High,False,,8.0,Medium,6.0,1.0
+7C564,KR_7C,2021-01-04,Hard landing,Accident,108,Low,True,,10.0,Large,14.0,2.0
+KE991,KR_KE,2022-10-03,Hard landing,Serious incident,450,High,False,,12.0,Small,17.0,1.0
+LJ880,KR_LJ,2021-06-15,Runway overrun,Accident,102,Low,True,,6.0,Medium,11.0,1.0
+KE471,KR_KE,2021-11-11,Engine issue,Minor incident,422,High,False,,9.0,Large,9.0,3.0
+KE878,KR_KE,2022-06-30,Engine issue,Minor incident,448,High,False,,11.0,Medium,8.0,1.0
+LJ640,KR_LJ,2022-09-14,Hydraulic failure,Accident,118,Low,True,,13.0,Medium,15.0,1.0
+NK787,US_NK,2022-10-28,Hard landing,Minor incident,81,Low,True,,8.0,Small,7.0,1.0
+7C165,KR_7C,2021-12-13,Bird strike,Minor incident,78,Low,True,,14.0,Medium,12.0,1.0
+KE824,KR_KE,2022-10-09,Bird strike,Minor incident,431,High,False,,7.0,Large,13.0,3.0
+NK319,US_NK,2022-07-07,Engine issue,Serious incident,111,Low,True,,12.0,Medium,10.0,1.0
+7C903,KR_7C,2022-04-30,Hydraulic failure,Minor incident,66,Low,True,,15.0,Small,16.0,2.0
+NK520,US_NK,2022-04-24,Bird strike,Serious incident,75,Low,True,,6.0,Medium,14.0,2.0
+KE354,KR_KE,2021-07-16,Engine issue,Minor incident,435,High,False,,9.0,Large,11.0,1.0

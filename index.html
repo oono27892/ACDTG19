@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACDT Project:Is LCC Really More Dangerous Than FSC?</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #content-section {
+            min-height: 400vh;
+        }
+        .story-container {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            pointer-events: none;
+        }
+        .story-text {
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+        .story-text.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary-blue': '#1e40af',
+                        'secondary-gray': '#f3f4f6',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-secondary-gray text-gray-800 font-sans">
+
+    <div class="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        
+        <header class="text-center mb-16 p-8 bg-white rounded-xl shadow-lg">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-primary-blue mb-2">
+                Is Low-Cost Carriers Really More Dangerous Than Full-Service Carriers?
+            </h1>
+            <p class="text-xl text-gray-600">
+                G19
+            </p>
+        </header>
+
+        <section id="content-section" class="bg-white p-6 rounded-xl shadow-lg mb-12 relative">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b pb-2">Research Hypothesis and Data Collection</h2>
+
+            <div class="story-container">
+                <div id="story-display" class="story-text active p-8 bg-blue-50 border-l-4 border-primary-blue rounded-lg text-center shadow-md max-w-xl">
+                    <p class="text-2xl font-semibold text-primary-blue">
+                        Scroll down to see our journey of research.
+                    </p>
+                    <p class="text-lg mt-2 text-gray-600">
+                        We collected data to verify our hypothesis that LCC is more dangerous than FCS.
+                    </p>
+                </div>
+            </div>
+
+            <div class="h-[100vh]"></div>
+            <div class="h-[100vh]"></div>
+            <div class="h-[100vh]"></div>
+
+        </section>
+
+        <section class="bg-white p-8 rounded-xl shadow-lg mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b pb-2">Key Findings from Weighted Logistic Regression</h2>
+            
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-primary-blue mb-4">Finding 1: Logit Coefficients (Map A)</h3>
+                <p class="text-lg text-gray-700 mb-4">
+                    Map A visualizes the coefficient magnitudes from the weighted logistic regression analysis. It shows that the ‘is_low_cost’ variable has the strongest influence on the likelihood of an event occurring.
+                </p>
+                <div class="h-auto bg-white flex items-center justify-center rounded-lg border-2 border-dashed border-gray-300 overflow-hidden">
+                    <img src="map_a_coefficients.png" 
+                         alt="Map A: Statistical System Map (Coefficients) showing LCC risk factors" 
+                         class="w-full h-auto rounded-lg"
+                         onerror="this.onerror=null; this.src='https://placehold.co/600x400/CCCCCC/333333?text=Map+A+Image+Missing'">
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-primary-blue mb-4">Finding 2: Causal Loop Diagram (Map B)</h3>
+                <p class="text-lg text-gray-700 mb-4">
+                    Map B is our system map. It demonstrates a complex system where multiple factors such as the direct impact of airline type (LCC) on accident rates, as well as interactions between bad weather and pilot experience years interact with each other.
+                </p>
+                <div class="h-auto bg-white flex items-center justify-center rounded-lg border-2 border-dashed border-gray-300 overflow-hidden p-4">
+                    <img src="map_b_system.png" 
+                         alt="Map B: Causal Loop Diagram (System Map) for future strategy" 
+                         class="w-full h-auto rounded-lg"
+                         onerror="this.onerror=null; this.src='https://placehold.co/600x400/CCCCCC/333333?text=Map+B+Image+Missing'">
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white p-8 rounded-xl shadow-lg mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b pb-2">Sources</h2>
+            
+            <ul class="space-y-4 text-lg">
+                <li class="p-3 bg-secondary-gray rounded-lg hover:bg-gray-200 transition duration-150 flex justify-between items-center">
+                    <span>
+                        <svg class="w-6 h-6 inline-block mr-2 text-red-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 5a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 4a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path></svg>
+                        Executive Summary (1-page PDF)
+                    </span>
+                    <a href="Group 19 1-page Summary.pdf" download="Group 19 1-page Summary.pdf" class="text-primary-blue font-semibold hover:underline">Download</a>
+                </li>
+                
+                <li class="p-3 bg-secondary-gray rounded-lg hover:bg-gray-200 transition duration-150 flex justify-between items-center">
+                    <span>
+                        <svg class="w-6 h-6 inline-block mr-2 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707l-.707-.707V8a6 6 0 00-6-6zM4 15h12v2H4z"></path></svg>
+                        Raw Data File (Incident Preview CSV)
+                    </span>
+                    <a href="Preview__flight_clean_with_weather_csv__first_30_rows_.csv" download="Preview__flight_clean_with_weather_csv__first_30_rows_.csv" class="text-primary-blue font-semibold hover:underline">Download</a>
+                </li>
+
+                <li class="p-3 bg-secondary-gray rounded-lg hover:bg-gray-200 transition duration-150 flex justify-between items-center">
+                    <span>
+                        <svg class="w-6 h-6 inline-block mr-2 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707l-.707-.707V8a6 6 0 00-6-6zM4 15h12v2H4z"></path></svg>
+                        Raw Data File (Synthetic Full CSV)
+                    </span>
+                    <a href="synthetic_flights_2021_2022_rare_events.csv" download="synthetic_flights_2021_2022_rare_events.csv" class="text-primary-blue font-semibold hover:underline">Download</a>
+                </li>
+                
+            </ul>
+        </section>
+
+    </div>
+
+    <script>
+        const storyDisplay = document.getElementById('story-display');
+        const contentSection = document.getElementById('content-section');
+        const storyTexts = [
+            { title: "Defining the Safety Perception Gap", text: "The public often perceives Low-Cost Carriers (LCC) as less safe than Full-Service Carriers (FSC). Our project aims to test this common assumption using hard data." },
+            { title: "Unpacking the Data", text: "For accurate analysis, we examined various factors including fleet age, pilot experience, weather conditions, and other factors for both LCC and FCS." },
+            { 
+                title: "Map A: LCC Type is the Dominant Risk Factor", 
+                text: "Our Statistical System Map (Map A) definitively showed that the LCC carrier type is the dominant risk factor, demonstrating the strongest positive effect on accident likelihood (Odds Ratio ≈ 2.6). This result challenges industry perceptions." 
+            },
+            { 
+                title: "Map B: Strategic Insight", 
+                text: "While LCC status increases risk, key mitigating factors like Pilot Experience significantly reduce it. Therefore, we must move beyond the dichotomous thinking of LCC and FCS and focus on more specific factors such as aircraft, pilots, and weather." 
+            }
+        ];
+
+        function handleScroll() {
+            const rect = contentSection.getBoundingClientRect();
+            const startScrollY = rect.top + window.scrollY;
+            
+            const scrollDistance = window.scrollY - startScrollY;
+            const sectionHeight = contentSection.clientHeight - window.innerHeight;
+
+            let progress = 0;
+            if (sectionHeight > 0) {
+                 progress = Math.max(0, Math.min(1, scrollDistance / sectionHeight));
+            } else {
+                progress = 0;
+            }
+
+            const index = Math.min(storyTexts.length - 1, Math.floor(progress * storyTexts.length));
+
+            const currentStory = storyTexts[index];
+
+            if (storyDisplay.dataset.currentIndex !== String(index)) {
+                storyDisplay.classList.remove('active');
+
+                setTimeout(() => {
+                    storyDisplay.innerHTML = `
+                        <p class="text-2xl font-semibold text-primary-blue">${currentStory.title}</p>
+                        <p class="text-lg mt-2 text-gray-600">${currentStory.text}</p>
+                    `;
+                    storyDisplay.classList.add('active');
+                    storyDisplay.dataset.currentIndex = index;
+                }, 500);
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('load', () => {
+            handleScroll();
+        });
+
+    </script>
+
+</body>
+</html>
